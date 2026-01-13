@@ -1,0 +1,1 @@
+Robic program ktore wezmie dane z pliku exel i sprawdza czy danym folder directory jest wszytskie pliki co jest wpisane na excely i jak jest to zaznaczya linie ktore jest na yelono i jak niema to na czerwono zeby latwo bylo znalesc
