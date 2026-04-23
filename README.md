@@ -13,25 +13,31 @@ Generates random client/test data and saves to Excel using Faker and pandas.
 ### 3. Excel Comparison App (`/comparison`)
 Compares two Excel files and generates a report highlighting differences. Useful for database updates and identifying new entries.
 
-## Requirements
+## Quick Start
 
 ```bash
-pip install pandas openpyxl faker tkinter
+git clone https://github.com/Xza85hrf/Excel-Tools.git
+cd Excel-Tools
+pip install pandas openpyxl faker
 ```
+
+`tkinter` is part of the Python standard library on Windows and macOS
+installers. On Debian/Ubuntu install it once with
+`sudo apt install python3-tk`.
 
 ## Usage
 
-Each tool has its own directory with a standalone GUI application:
+Each tool is a standalone Tkinter GUI. Launch from the repo root:
 
 ```bash
 # Run verifier
-python verifier/main.py
+python verifier/excel_verifier_gui.py
 
 # Run data generator
-python data-generator/main.py
+python "data-generator/Excel Random Data Generator.py"
 
 # Run comparison tool
-python comparison/main.py
+python comparison/Gui.py
 ```
 
 ## License
