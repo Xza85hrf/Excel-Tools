@@ -18,8 +18,15 @@ Compares two Excel files and generates a report highlighting differences. Useful
 ```bash
 git clone https://github.com/Xza85hrf/Excel-Tools.git
 cd Excel-Tools
-pip install pandas openpyxl faker
+pip install pandas openpyxl faker rich
 ```
+
+Dependency breakdown per tool (if you want to install only what you
+need):
+
+- `verifier/` → `openpyxl`, `rich`
+- `data-generator/` → `pandas`, `openpyxl`, `faker`
+- `comparison/` → `openpyxl`
 
 `tkinter` is part of the Python standard library on Windows and macOS
 installers. On Debian/Ubuntu install it once with
